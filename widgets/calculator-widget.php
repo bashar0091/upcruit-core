@@ -219,13 +219,11 @@ class calculator_widget extends \Elementor\Widget_Base {
 		
 							<div class="col-6" id="eachCv">
 								<select class="form-select py-3 rounded-0 focus-0">
-									<option value="30">30 secs</option>
-									<option value="60">1 min</option>
-									<option value="90">1.5 min</option>
 									<option value="120">2 min</option>
-									<option value="180">3 min</option>
-									<option value="240">4 min</option>
 									<option value="300">5 min</option>
+									<option value="600">10 min</option>
+									<option value="900">15 min</option>
+									<option value="1200">20 min</option>
 								</select>
 							</div>
 						</div>
